@@ -44,6 +44,13 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 
 *Результатом работы должны быть скриншоты обозначенных заданий, а также простыня со всеми запросами.*
 
+### Решение:
+
+[скриншот1] (https://github.com/maxgn87/sdb-homeworks-12-02/blob/main/img/Screenshot_1.jpg)
+[скриншот2] (https://github.com/maxgn87/sdb-homeworks-12-02/blob/main/img/Screenshot_2.jpg)
+[скриншот3] (https://github.com/maxgn87/sdb-homeworks-12-02/blob/main/img/Screenshot_3.jpg)
+[список команд] (https://github.com/maxgn87/sdb-homeworks-12-02/blob/main/%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B.txt)
+
 
 ### Задание 2
 Составьте таблицу, используя любой текстовый редактор или Excel, в которой должно быть два столбца: в первом должны быть названия таблиц восстановленной базы, во втором названия первичных ключей этих таблиц. Пример: (скриншот/текст)
@@ -51,6 +58,10 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 Название таблицы | Название первичного ключа
 customer         | customer_id
 ```
+
+### Решение :
+
+[таблица] (https://github.com/maxgn87/sdb-homeworks-12-02/blob/main/%D1%82%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%D0%B0.xlsx)
 
 
 ## Дополнительные задания (со звёздочкой*)
