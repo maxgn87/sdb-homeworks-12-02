@@ -1,0 +1,11 @@
+create user 'sys_temp' identified by 'password1';
+select host, user from mysql.user;
+grant all privileges on *.* to 'sys_temp';
+SHOW GRANTS FOR sys_temp;
+mysql -u sys_temp -p
+ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
+CREATE DATABASE sakila;
+mysql -u root -p sakila < sakila-schema.sql
+mysql -u root -p sakila < sakila-data.sql
+mysql> use sakila;
+mysql> show tables;
